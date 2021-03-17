@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Web Development" />
+    <meta name="description" content="Nadav Somekh - Full Stack Web Developer, Oakland California Bay Area" />
     <meta name="author" content="" />
     <title>Nadav Somekh - Web Development</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
@@ -16,6 +16,17 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149430681-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-149430681-1');
+    </script>
+
     <!-- endbuild -->
 
 </head>
@@ -133,7 +144,7 @@
         <section class="resume-section" id="contact">
             <div class="resume-section-content">
                 <h2 class="mb-5 text_animate rgb-text-glitch">Contact Me</h2>
-       
+
                 <div id="contact-reply"></div>
                 <form name="sentMessage" id="contact-form" novalidate>
 
@@ -148,8 +159,8 @@
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input name="email" type="email" id="email" class="form-control btn-outline-success" required
-                                    data-validation-matches-match="email"
+                                <input name="email" type="email" id="email" class="form-control btn-outline-success"
+                                    required data-validation-matches-match="email"
                                     data-validation-required-message="Please enter your email address." />
                                 <p class="help-block text-danger"></p>
                             </div>
@@ -164,11 +175,11 @@
                                 class="btn  btn-lg btn-block btn-success">&lt;&lt;Submit&gt;&gt;</button>
                         </div>
                     </div>
-    
-            </form>
-      
-    </div>
-    </section>
+
+                </form>
+
+            </div>
+        </section>
     </div>
 
     <!-- build:js js/main.js -->
