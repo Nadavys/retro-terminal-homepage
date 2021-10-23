@@ -44,7 +44,7 @@
         if (isFormValid) {
             console.log("submit...")
             $.ajax({
-                url: "https://api.slapform.com/info@blissfulwebdev.com",
+                url: "https://api.slapform.com/lZuLi9sot",
                 type: "POST",
                 dataType: 'json',
                 data: data,

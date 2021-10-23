@@ -31,4 +31,4 @@ jobs:
         with:
           publish_dir: ./dist
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          cname: www.blissfulwebdev.com
+          cname: www.joyfulweb.net
