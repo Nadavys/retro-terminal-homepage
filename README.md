@@ -4,7 +4,10 @@
 
 **Retro terminal/cyberpunk themed.**
 
+
 ```javascript
+nvm use 16
+
 npm install
 
 npm run start

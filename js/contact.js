@@ -44,10 +44,10 @@
         if (isFormValid) {
             console.log("submit...")
             $.ajax({
-                url: "https://api.slapform.com/lZuLi9sot",
+                url: "https://i5798rwnva.execute-api.us-east-2.amazonaws.com/prod/sendmail",
                 type: "POST",
                 dataType: 'json',
-                data: data,
+                data: JSON.stringify(data),
                 cache: false,
                 success: onSuccess,
                 error: onError
